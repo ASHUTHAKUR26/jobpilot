@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const API = "http://localhost:5000/api";
+const API = "https://jobpilot-1z1z.onrender.com/api";
 const COLUMNS = ["Applied", "Interview", "Offer", "Rejected"];
 const BADGE_COLORS = {
   Applied: "bg-blue-500",
