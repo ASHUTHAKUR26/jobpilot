@@ -51,8 +51,8 @@ export default function Dashboard() {
     } catch (err) {}
   };
 
-  // eslint-disable-next-line
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+ 
+// eslint-disable-next-line react-hooks/exhaustive-deps
 useEffect(() => {
     fetchJobs();
     fetchStats();
