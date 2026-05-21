@@ -35,7 +35,7 @@ export default function Login() {
             <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
             <input
               type="email"
-              placeholder="ashu@gmail.com"
+              placeholder="Enter your email"
               className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
